@@ -1,0 +1,178 @@
+@font-face {
+    font-family: gotham-book;
+    src: url(./Font/Gotham\ Book.otf);
+}
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+body {
+    margin:0;
+}
+   
+.container>div {
+    scroll-snap-align: start;
+}
+.mainContainer{
+    background: url('./Images/bg1.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0% 65%;
+    /* transform: translateY(-300px); */
+    height: 100vh;
+    width: auto;
+}
+
+#logo img {
+    width:120px;
+    height:12px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    position: fixed;
+}
+.midH {
+    position:absolute;
+    left:370px;
+    top: 15px;
+    width:47%;
+    position: fixed;
+}    
+.midH a {
+    padding-left: 25px;
+    opacity: .9;
+    font-family: gotham-book;
+    font-size: .9em;
+}
+.midH a:hover {
+    background-color: rgba(0, 0, 0, .1);
+    height: 100px;
+
+}
+.rightH {
+    width: 30%;
+    position: absolute;
+    right:-130px;
+    top: 15px;
+    position: fixed;
+}
+
+.rightH a {
+    padding-left: 30px;
+    opacity: .9;
+    font-family: gotham-book;
+    font-size: .9em;
+}
+.rightH a:hover {
+    background-color: rgba(0, 0, 0, .1)
+}
+
+.bodyContainer {
+    font-family: gotham-book, serif; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+.bodyContainer h1 {
+    font-size: 2.55em;
+    opacity: .7;
+}
+.bodyContainer a {
+    text-decoration: underline;
+}
+.bodyContainer p {
+    opacity: .7;
+    font-size: .9em;
+    margin-top: -20px;
+}
+.bodyContainer a:hover {
+    text-decoration: underline 2.5px;
+    opacity: 1;
+}
+.bottomContainer {
+    width: 580px;
+    text-align: center;
+    display: flex;
+    font-family: gotham-book;
+    font-size: .8em;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+    justify-content: space-evenly;
+    right:385px;
+    position: fixed;
+}
+.bcL {
+    color: white;
+    background: rgba(0, 0, 0, .65);
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+}
+.bcL a {
+    position:relative;
+    top:10px;
+}
+.bcR {
+    background: rgba(255, 255, 255, .75);
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    opacity: .8;
+}
+.bcR a {
+    position:relative;
+    top:10px;
+}
+.mainContainer1 {
+    background-size: 100% 100%;
+    background: url('./Images/bg2.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0% 85%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+.mainContainer2 {
+    background-size: 100% 100%;
+    background: url('./Images/bg3.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0% 85%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+.mainContainer3 {
+    background-size: 100% 100%;
+    background: url('./Images/Desktop-ModelY.jpeg') no-repeat;
+    background-size: cover;
+    background-position: 0% 55%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+.mainContainer4 {
+    background-size: 100% 100%;
+    background: url('./Images/panel.webp') no-repeat;
+    background-size: cover;
+    background-position: 0% 55%;
+    height: 100vh;
+    width: 100%;
+    scroll-snap-align: center;
+}
+.mainContainer5 {
+    background-size: 100% 100%;
+    background: url('./Images/slide2.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0% 85%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+.mainContainer6 {
+    background-size: 100% 100%;
+    background: url('./Images/Desktop-Accessories.jpeg') no-repeat;
+    background-size: cover;
+    background-position: 0% 55%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
