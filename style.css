@@ -10,6 +10,10 @@ html {
 body {
     margin:0;
 }
+.container{
+    width: auto;
+    height: auto;
+}
    
 .container>div {
     scroll-snap-align: start;
@@ -26,54 +30,58 @@ body {
 #logo img {
     width:120px;
     height:12px;
-    position: absolute;
+    /* position: absolute;
     left: 50px;
-    top: 20px;
+    top: 20px; */
     position: fixed;
 }
 .midH {
-    position:absolute;
+    /* position:absolute;
     left:370px;
-    top: 15px;
-    width:47%;
-    position: fixed;
+    top: 15px; */
+    /* width:47%; */
+    /* position: fixed;
+    padding-left: 50px; */
 }    
 .midH a {
-    padding-left: 25px;
+    padding: 25px;
     opacity: .9;
     font-family: gotham-book;
     font-size: .9em;
 }
 .midH a:hover {
     background-color: rgba(0, 0, 0, .1);
-    height: 100px;
+    border-radius: 25px;
 
 }
 .rightH {
-    width: 30%;
-    position: absolute;
+    /* width: 30%; */
+    /* position: absolute;
     right:-130px;
-    top: 15px;
-    position: fixed;
+    top: 15px; */
+    /* position: fixed; */
 }
 
 .rightH a {
-    padding-left: 30px;
+    padding: 10px;
     opacity: .9;
     font-family: gotham-book;
     font-size: .9em;
+    /* position: fixed; */
 }
 .rightH a:hover {
-    background-color: rgba(0, 0, 0, .1)
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 25px;
 }
 
 .bodyContainer {
     font-family: gotham-book, serif; 
     height: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     
 }
 .bodyContainer h1 {
@@ -181,4 +189,10 @@ body {
     background-position: 0% 55%;
     height: 100vh;
     scroll-snap-align: center;
+} .hi {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: auto;
+    /* position: fixed; */
 }
